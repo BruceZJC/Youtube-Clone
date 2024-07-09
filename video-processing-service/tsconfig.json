@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        //Which version of JS
+        "target": "ES6",
+
+        "module": "CommonJS",
+
+        //source and final build directory
+        "rootDir": "src",
+        "outDir": "dist",
+
+        //type checking
+        "strict": true,
+    
+        "esModuleInterop": true
+    },
+    // include all ts file within this directory
+    "include": ["src/**/*.ts"],
+    // exclude all files in this directory
+    "exclude": ["node_modules"]
+}
