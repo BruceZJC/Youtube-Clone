@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6 rem;
+    min-height: 100 vh;
+}
+.description{
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    font-size: 0.85 rem;
+    max-width: var(--max-width);
+    width: 100%;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.thumbnail{
+    margin:10px;
+}
